@@ -1,0 +1,158 @@
+@media screen {
+body{
+  	margin: 0 auto;
+  	padding: 0;
+  	background-repeat: no-repeat;
+  	background: url('../images/bg-login.jpg') ;
+    background-size: cover;
+    background-position: top;
+    overflow: auto; 
+    text-align:center;
+  }
+}
+
+header{
+         letter-spacing:10px;
+         font-size:28px;
+         color:rgb(255,255,255);
+         font-family:Trebuchet MS, sans-serif;
+         margin-top:63px;
+         word-spacing:10px;
+       }
+
+img{
+	width:50px; 
+	height:50px; 
+	vertical-align:middle;
+}       
+
+.first{
+  	    text-align: center;
+        font-size:13px;
+        color:rgb(255,255,255);
+        letter-spacing:0.5px;
+        font-family:Trebuchet MS, sans-serif;
+        margin-top:20px;
+        margin-bottom:40px;
+        line-height:1.5;
+        }
+
+div {
+     margin:auto;
+     margin-bottom:35px;
+     color:rgb(0,10,40);
+     width: 345px;
+     background: white;
+     border: 1px;
+     }    
+   
+select{
+      position: relative;
+      background-color: white;
+   	  float: right;
+      border:0px;
+      top:8px;
+      right: 20px;
+      width: 70px;
+     }  
+
+
+a{
+    text-decoration: none;
+    color:rgb(0,255,255);
+    font-family:Trebuchet MS, sans-serif;
+    font-size:12px;
+        }
+
+.second{
+    letter-spacing:2px;
+    font-size:18px;
+    font-family:Trebuchet MS, sans-serif;
+    padding-top: 37px;
+    padding-bottom: 0px;
+    } 
+
+input[type=text], input[type=password]{
+   	width: 80%;
+   	margin-top: 8px;
+   	margin-bottom: 4px; 
+   	padding-top:6px;
+   	padding-bottom:4px;
+   	padding-left:12px;
+   	font-style: italic;
+   }
+
+input[type=checkbox]{
+   	vertical-align: middle;
+   	width: 2%;
+   	float: left;
+    margin-top:0px;
+   	margin-bottom:15px;
+   	margin-left:22px;
+   	font-size: 8px;
+   }
+  
+button {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 5px 20px;
+    margin: 14px 0 40px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+         }
+
+.link{
+  	text-decoration: none;
+  	color: DodgerBlue;
+  }
+
+label{
+ 	font-size:10px;
+    float:left;
+    margin-top: 15px;
+    margin-left: 4px;
+    font-family: Trebuchet MS, sans-serif;
+   }
+
+.third{
+   	font-size: 4px;
+   	margin-top: 60px;
+    color:rgb(255,255,255);   	
+   }
+   
+.forth{
+   	font-size: 12px;
+   	font-family: verdana;
+    margin-top: 5px;
+    padding-bottom: 25px;
+   } 
+
+section{
+   	margin-top:12px;
+   font-size: 10px;
+   }
+
+@media only screen and (max-width: 768px) {
+	header{
+		margin-top: 20px;
+	}
+div{
+		width:60%;
+		height: auto;
+	}
+
+label,section{
+   	width:100%;
+   }
+} 
+  
+@media print {
+	body{
+	margin: 0 auto;
+  	padding: 0;
+    overflow: auto; 
+    text-align:center;
+	background-color: grey;
+     }
+}

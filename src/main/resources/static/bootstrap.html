@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/userdetails.js" type="text/javascript"></script>
+</head>
+    
+    <body class="bg-success" style="padding-top: 4rem">
+    <navbar class="navbar navbar-expand bg-dark navbar-dark fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="far fa-handshake"></i>Flip~Deal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Product List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mycart.html"><i class="fas fa-cart-arrow-down"></i>My~Cart</a>
+            </li>
+            <li class="nav-item">
+                <a id="button8" class="nav-link" href="/logout"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            </li>
+        </ul>
+    </navbar>
+    
+        <div class="container-fluid ">
+                <div class="row">   
+                <div class="col-md-3"> 
+                <div class="card">
+
+                 <i class="fas fa-user-circle text-center " style="font-size: 75px"></i>
+                 <h3 id="userid" class="text-center"></h3>
+                 <h3 id="name" class="text-center"></h3>
+                    <hr>
+                   <div class="container">
+                    <div id="address"  ><i class="fas fa-map-marker-alt m-2"></i></div>
+                     <div id="mailid"><i class="<i far fa-envelope m-2"></i></div>
+                    </div> 
+                    <hr>
+                    <a  href="updateProfile.html">Update Profile</a>
+                    <div class="mx-auto mb-2" >
+                        <i class="fab fa-twitter text-primary m-2"></i>
+                        <i class="fab fa-soundcloud text-success m-2"></i>
+                        </div>
+                    </div>
+                </div>              
+                <div class="col-md-9 p-0 m-0">  
+                    <div class="bg-white">
+                        <h4 class="pt-3 pl-3">BACKGROUND</h4>
+                         <hr class="mx-5 my-2">
+                        <h5 ><i class="far fa-address-card px-3"></i>ABOUT</h5>
+                        <hr class="mx-5 my-2">
+                        <p class="mx-5 small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h5><i class="fas fa-briefcase px-3"></i>WORK EXPERIENCE</h5>
+                        <hr class="mx-5 my-2">
+				
+                        <p class="mx-5 small"><b>Project1</b><a href="#">,Java</a><a href="#">,Angular</a><br><span class="text-secondary">Dec,2013-Dec,2014</span><i class="far fa-clock text-secondary px-2">1 year</i></p>
+                        
+                        <p class="mx-5 small"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+						 <ul class="ml-5 pl-4 small" >
+                            <li>Random point 1</li>
+                            <li>Random point 2</li>
+                            <li>Random point 3</li>
+                        </ul>
+                         <h5><i class="fas fa-chart-line px-3"></i>SKILL</h5>
+                        <hr class="mx-5 my-2">
+						<p class="mx-5 small"><b>Web Developement</b></p>
+						<div class="small">
+						<button type="button" class="bg-info text-white ml-5 rounded">HTML</button>
+						<button type="button" class="bg-info text-white rounded">CSS</button>
+						<button type="button" class="bg-info text-white rounded">Javascript</button>
+						</div>
+						<hr class="mx-5 my-2">
+						<p class="mx-5 small mb-2"><b>Compressiont</b></p>
+						<div class="small mb-2">
+						<button type="button" class="bg-info text-white ml-5 rounded">Mpeg</button>
+						<button type="button" class="bg-info text-white rounded">MP4</button>
+						<button type="button" class="bg-info text-white rounded">GIF</button>
+						</div>
+						<h5 class="mt-2" ><i class="fas fa-graduation-cap px-3"></i>EDUCATION</h5>
+						<hr class="mx-5 my-2">
+						<p class="mx-5 small mb-1"><b>Bachelor of Technology</b>,IIT Kanpur</p>
+						<p class="text-secondary pl-5 small">Jun,2011-Jan,2014</p>
+						<p class="mx-5 small"><b><i>CGPA: Random</i></b></p>
+						<div class="small">
+						<button type="button" class="bg-info text-white ml-5 rounded">DB1101-BasicSQL</button>
+						<button type="button" class="bg-info text-white rounded">CS2011-Java Introduction</button>
+						</div>
+						
+						<h5 class="pt-3"><i class="fas fa-heart px-3"></i>INTERESTS</h5> 
+						<hr class="mx-5 my-2">
+						<p class="mx-5 small"><b>Wildlife</b></p>
+						<div class="small">
+						<button type="button" class="bg-info text-white ml-5 rounded">Ferrets</button>
+						<button type="button" class="bg-info text-white rounded">Unicorns</button>
+						</div>
+						<hr class="mx-5 my-2">
+                    </div>
+                    </div>
+                </div>   
+        </div>     
+    </body>
+</html>
