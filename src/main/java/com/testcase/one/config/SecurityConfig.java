@@ -53,7 +53,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().permitAll()
                 .and()//defaultSuccessUrl("/index1.html").permitAll();
               .formLogin().
-                loginPage("").loginProcessingUrl("/security_login").usernameParameter("username").
+                loginPage("/login.html").loginProcessingUrl("/security_login").usernameParameter("username").
                 passwordParameter("password").defaultSuccessUrl("/mycart.html")
         .and()
         .logout()
